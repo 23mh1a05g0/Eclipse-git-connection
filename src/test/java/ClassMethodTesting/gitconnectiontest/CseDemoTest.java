@@ -14,11 +14,11 @@ class CseDemoTest {
 	CseDemo cal = new CseDemo();
 	
 	
-//	@Test
-//	void test2() {
-//		int result = cal.mul(2, 3);
-//		assertEquals(6,result);
-//	}
+	@Test
+	void test2() {
+		int result = cal.mul(2, 3);
+		assertEquals(6,result);
+	}
 	
 	@Test
 	void test1() {
