@@ -1,0 +1,29 @@
+package ClassMethodTesting.gitconnectiontest;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+class CseDemoTest {
+
+
+	CseDemo cal = new CseDemo();
+	
+	
+	@Test
+	void test2() {
+		int result = cal.mul(2, 3);
+		assertEquals(6,result);
+	}
+	
+	@Test
+	void test1() {
+		int result = cal.add(2, 3);
+		assertEquals(5,result);
+	}
+
+}
